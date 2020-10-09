@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.dominokit</groupId>
     <artifactId>test-release</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/DominoKit/test-release.git</connection>
         <developerConnection>scm:git:git@github.com:DominoKit/test-release.git</developerConnection>
         <url>https://github.com/DominoKit/test-release</url>
-      <tag>test-release-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <distributionManagement>
