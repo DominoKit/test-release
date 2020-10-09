@@ -3,11 +3,13 @@ name: Releasesss
 on:
   push:
     branches:
-      - main
+      - release
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout project
         uses: actions/checkout@v2
