@@ -44,8 +44,6 @@
                     <!-- Configure branches -->
                     <gitFlowConfig>
                         <productionBranch>main</productionBranch>
-                        <!-- default is develop, but we use development -->
-                        <developmentBranch>development</developmentBranch>
                     </gitFlowConfig>
                 </configuration>
             </plugin>
