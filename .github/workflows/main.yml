@@ -25,6 +25,9 @@ jobs:
         with:
           java-version: 1.8
 
+      - name: Prepare release
+        run: mvn gitflow:release-start
+
       - name: Release Maven package
         uses: samuelmeuli/action-maven-publish@v1
         with:
