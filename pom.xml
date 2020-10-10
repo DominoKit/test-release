@@ -15,9 +15,9 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub</name>
-            <url>https://maven.pkg.github.com/dominokit/test-release</url>
+            <id>test-release</id>
+            <name>test-release</name>
+            <url>http://repo.dominokit.org:8081/repository/maven-central/</url>
         </repository>
     </distributionManagement>
 
